@@ -1,0 +1,44 @@
+Predictions generated: 20
+Output file: /tmp/tmppb7a4rvt/out.csv
+First five predictions:
+            date  next_interval_Usage_kWh
+19/10/2018 19:00                58.498245
+19/10/2018 19:15                60.658019
+19/10/2018 19:30                54.075960
+19/10/2018 19:45                49.497001
+19/10/2018 20:00                60.104811
+Predictions generated: 20
+Output file: /mnt/data/DATA_DIVERGENCE_FINAL_SOLUTION/test_output.csv
+First five predictions:
+            date  next_interval_Usage_kWh
+19/10/2018 19:00                58.498245
+19/10/2018 19:15                60.658019
+19/10/2018 19:30                54.075960
+19/10/2018 19:45                49.497001
+19/10/2018 20:00                60.104811
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_duplicate_timestamp_rejected (test_pipeline.TestRobustness.test_duplicate_timestamp_rejected) ... ok
+test_empty_input_rejected (test_pipeline.TestRobustness.test_empty_input_rejected) ... ok
+test_inf_numeric_is_cleaned_and_warned (test_pipeline.TestRobustness.test_inf_numeric_is_cleaned_and_warned) ... ok
+test_invalid_numeric_text_is_warned (test_pipeline.TestRobustness.test_invalid_numeric_text_is_warned) ... /mnt/data/DATA_DIVERGENCE_FINAL_SOLUTION/test_pipeline.py:52: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise an error in a future version of pandas. Value 'not-number' has dtype incompatible with int64, please explicitly cast to a compatible dtype first.
+  bad.loc[0, "NSM"] = "not-number"
+ok
+test_invalid_timestamp_rejected (test_pipeline.TestRobustness.test_invalid_timestamp_rejected) ... ok
+test_missing_required_column_rejected (test_pipeline.TestRobustness.test_missing_required_column_rejected) ... ok
+test_normal_prediction (test_pipeline.TestRobustness.test_normal_prediction) ... ok
+test_target_not_required_for_prediction (test_pipeline.TestRobustness.test_target_not_required_for_prediction) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.400s
+
+OK

@@ -1,0 +1,21 @@
+date,Usage_kWh,Lagging_Current_Reactive.Power_kVarh,Leading_Current_Reactive_Power_kVarh,CO2(tCO2),Lagging_Current_Power_Factor,Leading_Current_Power_Factor,NSM,WeekStatus,Day_of_week,Load_Type
+19/10/2018 19:00,69.52,47.77,0.0,0.03,82.42,100.0,68400,Weekday,Friday,Medium_Load
+19/10/2018 19:15,68.08,46.51,0.0,0.03,82.57,100.0,69300,Weekday,Friday,Medium_Load
+19/10/2018 19:30,50.54,33.98,0.0,0.02,82.99,100.0,70200,Weekday,Friday,Medium_Load
+19/10/2018 19:45,43.96,31.07,0.0,0.02,81.66,100.0,71100,Weekday,Friday,Medium_Load
+19/10/2018 20:00,60.19,45.65,0.0,0.03,79.68,100.0,72000,Weekday,Friday,Medium_Load
+19/10/2018 20:15,55.8,39.35,0.0,0.03,81.72,100.0,72900,Weekday,Friday,Medium_Load
+19/10/2018 20:30,61.52,43.78,0.0,0.03,81.48,100.0,73800,Weekday,Friday,Medium_Load
+19/10/2018 20:45,48.78,27.11,0.0,0.02,87.41,100.0,74700,Weekday,Friday,Medium_Load
+19/10/2018 21:00,39.35,14.51,0.0,0.02,93.82,100.0,75600,Weekday,Friday,Medium_Load
+19/10/2018 21:15,65.92,21.28,0.0,0.03,95.16,100.0,76500,Weekday,Friday,Medium_Load
+19/10/2018 21:30,74.95,26.46,0.0,0.03,94.3,100.0,77400,Weekday,Friday,Medium_Load
+19/10/2018 21:45,47.99,12.38,0.0,0.02,96.83,100.0,78300,Weekday,Friday,Medium_Load
+19/10/2018 22:00,74.84,23.87,0.0,0.03,95.27,100.0,79200,Weekday,Friday,Medium_Load
+19/10/2018 22:15,47.59,38.74,0.0,0.02,77.55,100.0,80100,Weekday,Friday,Medium_Load
+19/10/2018 22:30,44.5,36.76,0.0,0.02,77.1,100.0,81000,Weekday,Friday,Medium_Load
+19/10/2018 22:45,80.96,54.07,0.0,0.04,83.16,100.0,81900,Weekday,Friday,Medium_Load
+19/10/2018 23:00,54.07,44.42,0.0,0.02,77.27,100.0,82800,Weekday,Friday,Medium_Load
+19/10/2018 23:15,42.44,42.37,0.0,0.02,70.77,100.0,83700,Weekday,Friday,Light_Load
+19/10/2018 23:30,73.01,48.82,0.0,0.03,83.13,100.0,84600,Weekday,Friday,Light_Load
+19/10/2018 23:45,61.2,38.66,0.0,0.03,84.54,100.0,85500,Weekday,Friday,Light_Load
